@@ -1,0 +1,49 @@
+[
+
+    {
+        "name": "Kėbulo lyginimas, paruošimas, dažymas",
+        "price": "400 / detalė"
+    },
+
+    {
+        "name": "Kapitalinis variklio remontas",
+        "price": "nuo 150"
+    },
+    {
+        "name": "Pagrindinio diržo keitimas",
+        "price": "nuo 120"
+    },
+    {
+        "name": "Mechaninės pavarų dėžės remontas",
+        "price": "nuo 60"
+    },
+    {
+        "name": "Automatinės pavarų dėžės remontas",
+        "price": "nuo 150"
+    },
+    {
+        "name": "Padangų montavimas/balansavimas ( 4 vnt.)",
+        "price": "nuo 25"
+    },
+    {
+        "name": "Tepalų keitimas variklyje",
+        "price": "nuo 15"
+    },
+    {
+        "name": "Važiuoklės patikra",
+        "price": "nuo 10"
+    },
+    {
+        "name": "Aušinimo skysčio keitimas su nuorinimu",
+        "price": "nuo 25"
+    },
+    {
+        "name": "Apatinės šakės sailentblokų keitimas",
+        "price": "20-35"
+    },
+    {
+        "name": "Vairo kolonėlės remontas (nuimtai kolonelėi)",
+        "price": "55-300"
+    }
+
+]

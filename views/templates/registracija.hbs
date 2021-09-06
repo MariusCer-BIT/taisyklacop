@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{>head}}
+    <body id="page-top">
+        {{>nav}}
+            <section class="page-section mt-5" >
+                <div class="container">
+                    <h2 class="page-section-heading text-center text-uppercase text-secondary mt-3 mb-4">
+                       {{ title }}
+                    </h2>
+                    
+<!-- Name input-->
+
+</div>
+                 <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                    
+                        <hr>
+                        <form method="POST" action="/registracija">
+                    
+                             <div class="form-floating mb-3">
+                                <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Jūsų vardas</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input class="form-control" name="phone" id="phone" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Telefono numeris</label>
+                            </div>
+
+                    <div class="form-floating mb-3">
+                                <input class="form-control" name="carmanuf" id="carmanuf" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Automobilio markė</label>
+                            </div>
+
+                             
+
+                            <div class="form-floating mb-3">
+                                <input class="form-control" name="carmodel" id="carmodel" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Automobilio modelis</label>
+                            </div>
+
+                             <div class="form-floating mb-3">
+                                <input class="form-control" name="caryear" id="caryear" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Pagaminimo metai</label>
+                            </div>
+
+                             <div class="form-floating mb-3">
+                                <input class="form-control" name="reapairdate" id="reapairdate" type="date"  placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Pageidaujamo apsilankymo data</label>
+                            </div>
+
+                     <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" name="text" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Galimas gedimas</label>
+                            </div>
+
+
+
+
+
+
+
+                         
+                            
+
+
+                            <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Išsiųsti</button>
+                        </form>
+                    </div>
+                </div>    
+
+
+            </section>
+        {{>footer}}
+    </body>
+</html>
